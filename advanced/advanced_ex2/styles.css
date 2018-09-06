@@ -1,16 +1,12 @@
 * .heading {
 
-    max-width: 400px;
-    max-height: 200px;
+    max-width: 10em;
+    max-height: 6em;
 }
 
 #header>div {
     display: flex;
     justify-content: space-around;
-}
-
-#navbar li {
-    list-style: none;
 }
 
 #navbar {
@@ -21,6 +17,7 @@
     display: flex;
     justify-content: space-around;
     padding: 10px 0;
+    list-style: none;
 }
 
 #navbar a {
@@ -31,18 +28,18 @@
 }
 
 .smallpic {
-    width: 23em;
-    height: 20em;
+    width: 15em;
+    height: 12em;
 }
 
 .horizontalpic {
-    width: 46em;
-    height: 20em;
+    width: 37em;
+    height: 12em;
 }
 
 #verticalpic {
-    width: 23em;
-    height: 40em;
+    width: 15em;
+    height: 12em;
 }
 #hero {
     display: flex;
@@ -54,9 +51,11 @@
 }
 
 .text {
+
 	font-size: 20px;
     display: flex;
     padding: 4px 80px 4px 4px;
+    margin: 4px 80px 4px 10px;
 }
 
 .text>p {
@@ -78,12 +77,14 @@ p.headingpara {
 }
 #footer ul {
 	text-align: center;
-	max-height: 100px;
-	line-height: 80px;
-	font-size: 30px;
+	font-size: 20px;
 	font-weight: bold;
 	display: flex;
     justify-content: space-around;
-    padding: 10px 0;
-    text-decoration: none;
+   list-style-type: none;
+   align-items: center;
+}
+.footerimg{
+    width: 50px;
+    height: 50px;
 }
